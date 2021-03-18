@@ -1,2 +1,1 @@
-# marathon__python
-marathon__python
+# marathon_python_homework
