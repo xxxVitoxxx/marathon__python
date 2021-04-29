@@ -1,3 +1,4 @@
+### xml.dom.mindom
 print('{0:-^30s}'.format('xml.dom.mindom'))
 import xml.dom.minidom
 # 存取檔案
@@ -13,6 +14,7 @@ for chapter in chapters:
     print('name:{} , text:{}'.format(chapter.getAttribute('name'),chapter.firstChild.nodeValue))
 
 
+### xml.etree.ElementTree
 print('{0:-^30s}'.format('xml.etree.ElementTree'))
 import xml.etree.ElementTree as ET
 # 存取檔案
@@ -27,6 +29,7 @@ chapters = root[2]
 for chapter in chapters:
     print('name:{} , text:{}'.format(chapter.attrib['name'],chapter.text))
 
+### xmltodict
 print('{0:-^30s}'.format('xmltodict'))
 import xmltodict
 # 存取檔案
